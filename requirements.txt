@@ -1,0 +1,19 @@
+# ----------------------------------------------------------------------------
+# winDesk v1.0 — Python dependencies
+# ----------------------------------------------------------------------------
+# winDesk runs on the Python standard library alone and degrades gracefully, but
+# these packages unlock its full capability (deep LDAP, low-level RPC/SAMR, the
+# AS-REP/Kerberoast/authenticated phases, and the AD CS / BloodHound steps).
+#
+#   pip install -r requirements.txt            # (inside a venv — recommended)
+#   pip install -r requirements.txt --break-system-packages   # Kali/PEP-668 host
+#
+# System tools (nmap, netexec, impacket-scripts, kerbrute, hashcat, john …) are
+# NOT pip packages — install them with ./install.sh.
+# ----------------------------------------------------------------------------
+
+impacket>=0.11.0          # SMBConnection, SAMR, and the GetNPUsers/GetUserSPNs CLIs
+ldap3>=2.9                # anonymous + authenticated LDAP deep enumeration
+dnspython>=2.4            # DNS SRV resolution; also required by bloodhound-python
+certipy-ad>=4.8           # AD CS triage (certipy find -vulnerable)
+bloodhound>=1.7           # bloodhound-python collector for attack-path graphing
