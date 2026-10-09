@@ -1,5 +1,7 @@
 <h1 align="center">WinDesk</h1>
 
+<img width="1005" height="188" alt="image" src="https://github.com/user-attachments/assets/01752898-c048-47af-9e90-034f6db2fa65" />
+
 ## ⚠️ Disclaimer
 
 **This project is published strictly for security research, education, and authorized penetration testing.** winDesk is a defensive-minded enumeration framework that wraps well-known, publicly available tools (nmap, NetExec, Impacket, kerbrute, hashcat/john) to help defenders, red teams, and students understand and harden Active Directory environments — the same category as countless open-source security tools hosted on GitHub.
