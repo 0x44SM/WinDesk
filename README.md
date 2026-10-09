@@ -1,16 +1,4 @@
-<h1 align="center">winDesk</h1>
-
-<p align="center">
-  <b>AI-driven Windows &amp; Active Directory enumeration + credential-access engine.</b><br>
-  Recon → AS-REP/Kerberoast → spray → crack → re-enumeration, in one command.
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/version-1.0-blue">
-  <img src="https://img.shields.io/badge/python-3.8%2B-blue">
-  <img src="https://img.shields.io/badge/platform-Linux%20%2F%20Kali-informational">
-  <img src="https://img.shields.io/badge/license-MIT-green">
-</p>
+<h1 align="center">WinDesk</h1>
 
 ## ⚠️ Disclaimer
 
