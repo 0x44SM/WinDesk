@@ -14,6 +14,8 @@
 By using this software you agree to use it lawfully and ethically. If you are not authorized to test a target, **do not point this tool at it.**
 
 ---
+## Intro
+WinDesk is capable of fully enumerating any Windows and exploiting Active Directory environments with flexible inputs. From host discovery to initial foothold, where possible. By the latest Python AI libraries, which are responsible for setting rules and decision-making, and exporting results in multiple formats. 
 
 ## Installation
 
