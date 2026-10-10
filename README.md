@@ -1,4 +1,6 @@
 <h1 align="center">WinDesk</h1>
+Enumerating Windows workstations and exploiting Active Directory environments with flexible inputs. From host discovery to initial
+foothold. Using AI decision-making and rules.
 
 <img width="1005" height="188" alt="image" src="https://github.com/user-attachments/assets/01752898-c048-47af-9e90-034f6db2fa65" />
 
